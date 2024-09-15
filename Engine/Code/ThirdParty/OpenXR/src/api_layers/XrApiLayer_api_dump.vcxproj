@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{34A6CAD2-1EF0-38B3-8962-965A01172C22}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>XrApiLayer_api_dump</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\HelloWorldTest\src\api_layers\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">XrApiLayer_api_dump.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">XrApiLayer_api_dump</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\HelloWorldTest\src\api_layers\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">XrApiLayer_api_dump.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">XrApiLayer_api_dump</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\HelloWorldTest\src\api_layers\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">XrApiLayer_api_dump.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">XrApiLayer_api_dump</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\HelloWorldTest\src\api_layers\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">XrApiLayer_api_dump.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">XrApiLayer_api_dump</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\..;D:\HelloWorldTest\src\api_layers\..;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\.;D:\HelloWorldTest\src\api_layers;D:\HelloWorldTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;XR_USE_GRAPHICS_API_OPENGL;XR_OS_WINDOWS;NOMINMAX;XR_USE_PLATFORM_WIN32;XR_USE_GRAPHICS_API_D3D11;XR_USE_GRAPHICS_API_D3D12;OPENXR_HAVE_COMMON_CONFIG;XR_USE_TIMESPEC;CMAKE_INTDIR="Debug";XrApiLayer_api_dump_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_CRT_SECURE_NO_WARNINGS;XR_USE_GRAPHICS_API_OPENGL;XR_OS_WINDOWS;NOMINMAX;XR_USE_PLATFORM_WIN32;XR_USE_GRAPHICS_API_D3D11;XR_USE_GRAPHICS_API_D3D12;OPENXR_HAVE_COMMON_CONFIG;XR_USE_TIMESPEC;CMAKE_INTDIR=\"Debug\";XrApiLayer_api_dump_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\..;D:\HelloWorldTest\src\api_layers\..;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\.;D:\HelloWorldTest\src\api_layers;D:\HelloWorldTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\..;D:\HelloWorldTest\src\api_layers\..;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\.;D:\HelloWorldTest\src\api_layers;D:\HelloWorldTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/api_layers/XrApiLayer_api_dump.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\..;D:\HelloWorldTest\src\api_layers\..;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\.;D:\HelloWorldTest\src\api_layers;D:\HelloWorldTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;XR_USE_GRAPHICS_API_OPENGL;XR_OS_WINDOWS;NOMINMAX;XR_USE_PLATFORM_WIN32;XR_USE_GRAPHICS_API_D3D11;XR_USE_GRAPHICS_API_D3D12;OPENXR_HAVE_COMMON_CONFIG;XR_USE_TIMESPEC;CMAKE_INTDIR="Release";XrApiLayer_api_dump_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_WARNINGS;XR_USE_GRAPHICS_API_OPENGL;XR_OS_WINDOWS;NOMINMAX;XR_USE_PLATFORM_WIN32;XR_USE_GRAPHICS_API_D3D11;XR_USE_GRAPHICS_API_D3D12;OPENXR_HAVE_COMMON_CONFIG;XR_USE_TIMESPEC;CMAKE_INTDIR=\"Release\";XrApiLayer_api_dump_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\..;D:\HelloWorldTest\src\api_layers\..;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\.;D:\HelloWorldTest\src\api_layers;D:\HelloWorldTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\..;D:\HelloWorldTest\src\api_layers\..;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\.;D:\HelloWorldTest\src\api_layers;D:\HelloWorldTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/api_layers/XrApiLayer_api_dump.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\..;D:\HelloWorldTest\src\api_layers\..;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\.;D:\HelloWorldTest\src\api_layers;D:\HelloWorldTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;XR_USE_GRAPHICS_API_OPENGL;XR_OS_WINDOWS;NOMINMAX;XR_USE_PLATFORM_WIN32;XR_USE_GRAPHICS_API_D3D11;XR_USE_GRAPHICS_API_D3D12;OPENXR_HAVE_COMMON_CONFIG;XR_USE_TIMESPEC;CMAKE_INTDIR="MinSizeRel";XrApiLayer_api_dump_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_WARNINGS;XR_USE_GRAPHICS_API_OPENGL;XR_OS_WINDOWS;NOMINMAX;XR_USE_PLATFORM_WIN32;XR_USE_GRAPHICS_API_D3D11;XR_USE_GRAPHICS_API_D3D12;OPENXR_HAVE_COMMON_CONFIG;XR_USE_TIMESPEC;CMAKE_INTDIR=\"MinSizeRel\";XrApiLayer_api_dump_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\..;D:\HelloWorldTest\src\api_layers\..;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\.;D:\HelloWorldTest\src\api_layers;D:\HelloWorldTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\..;D:\HelloWorldTest\src\api_layers\..;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\.;D:\HelloWorldTest\src\api_layers;D:\HelloWorldTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/api_layers/XrApiLayer_api_dump.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\..;D:\HelloWorldTest\src\api_layers\..;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\.;D:\HelloWorldTest\src\api_layers;D:\HelloWorldTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_CRT_SECURE_NO_WARNINGS;XR_USE_GRAPHICS_API_OPENGL;XR_OS_WINDOWS;NOMINMAX;XR_USE_PLATFORM_WIN32;XR_USE_GRAPHICS_API_D3D11;XR_USE_GRAPHICS_API_D3D12;OPENXR_HAVE_COMMON_CONFIG;XR_USE_TIMESPEC;CMAKE_INTDIR="RelWithDebInfo";XrApiLayer_api_dump_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_CRT_SECURE_NO_WARNINGS;XR_USE_GRAPHICS_API_OPENGL;XR_OS_WINDOWS;NOMINMAX;XR_USE_PLATFORM_WIN32;XR_USE_GRAPHICS_API_D3D11;XR_USE_GRAPHICS_API_D3D12;OPENXR_HAVE_COMMON_CONFIG;XR_USE_TIMESPEC;CMAKE_INTDIR=\"RelWithDebInfo\";XrApiLayer_api_dump_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\..;D:\HelloWorldTest\src\api_layers\..;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\.;D:\HelloWorldTest\src\api_layers;D:\HelloWorldTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\..;D:\HelloWorldTest\src\api_layers\..;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\.;D:\HelloWorldTest\src\api_layers;D:\HelloWorldTest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.lib</ImportLibrary>
+      <ModuleDefinitionFile>C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/api_layers/XrApiLayer_api_dump.def</ModuleDefinitionFile>
+      <ProgramDataBaseFile>D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\f5828221c7736d1b2a2fc8eb1840436b\xr_generated_api_dump.hpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating xr_generated_api_dump.hpp using C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe on api_dump_generator.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/src_genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" xr_generated_api_dump.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\registry\xr.xml;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\reg.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\api_dump_generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\src_genxr.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\automatic_source_generator.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\HelloWorldTest\src\api_layers\xr_generated_api_dump.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating xr_generated_api_dump.hpp using C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe on api_dump_generator.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/src_genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" xr_generated_api_dump.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\registry\xr.xml;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\reg.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\api_dump_generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\src_genxr.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\automatic_source_generator.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\HelloWorldTest\src\api_layers\xr_generated_api_dump.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating xr_generated_api_dump.hpp using C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe on api_dump_generator.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/src_genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" xr_generated_api_dump.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\registry\xr.xml;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\reg.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\api_dump_generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\src_genxr.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\automatic_source_generator.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\HelloWorldTest\src\api_layers\xr_generated_api_dump.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating xr_generated_api_dump.hpp using C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe on api_dump_generator.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/src_genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" xr_generated_api_dump.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\registry\xr.xml;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\reg.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\api_dump_generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\src_genxr.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\automatic_source_generator.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\HelloWorldTest\src\api_layers\xr_generated_api_dump.hpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\f5828221c7736d1b2a2fc8eb1840436b\xr_generated_api_dump.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating xr_generated_api_dump.cpp using C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe on api_dump_generator.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/src_genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" xr_generated_api_dump.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\registry\xr.xml;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\reg.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\api_dump_generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\src_genxr.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\automatic_source_generator.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\HelloWorldTest\src\api_layers\xr_generated_api_dump.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating xr_generated_api_dump.cpp using C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe on api_dump_generator.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/src_genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" xr_generated_api_dump.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\registry\xr.xml;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\reg.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\api_dump_generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\src_genxr.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\automatic_source_generator.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\HelloWorldTest\src\api_layers\xr_generated_api_dump.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating xr_generated_api_dump.cpp using C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe on api_dump_generator.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/src_genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" xr_generated_api_dump.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\registry\xr.xml;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\reg.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\api_dump_generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\src_genxr.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\automatic_source_generator.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\HelloWorldTest\src\api_layers\xr_generated_api_dump.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating xr_generated_api_dump.cpp using C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe on api_dump_generator.py</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/src_genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" xr_generated_api_dump.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\registry\xr.xml;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\scripts\reg.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\api_dump_generator.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\src_genxr.py;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\automatic_source_generator.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\HelloWorldTest\src\api_layers\xr_generated_api_dump.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\f5828221c7736d1b2a2fc8eb1840436b\XrApiLayer_api_dump.json.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating API Layer JSON D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.json using -f D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.json -n LUNARG_api_dump -l ./$^&lt;TARGET_FILE_NAME:XrApiLayer_api_dump^&gt; -a 1.1 -v 1  -d API Layer to record api calls as they occur</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/generate_api_layer_manifest.py" -f D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.json -n LUNARG_api_dump -l ./XrApiLayer_api_dump.dll -a 1.1 -v 1 -d "API Layer to record api calls as they occur"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\generate_api_layer_manifest.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\HelloWorldTest\src\api_layers\XrApiLayer_api_dump.json</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating API Layer JSON D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.json using -f D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.json -n LUNARG_api_dump -l ./$^&lt;TARGET_FILE_NAME:XrApiLayer_api_dump^&gt; -a 1.1 -v 1  -d API Layer to record api calls as they occur</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/generate_api_layer_manifest.py" -f D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.json -n LUNARG_api_dump -l ./XrApiLayer_api_dump.dll -a 1.1 -v 1 -d "API Layer to record api calls as they occur"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\generate_api_layer_manifest.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\HelloWorldTest\src\api_layers\XrApiLayer_api_dump.json</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating API Layer JSON D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.json using -f D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.json -n LUNARG_api_dump -l ./$^&lt;TARGET_FILE_NAME:XrApiLayer_api_dump^&gt; -a 1.1 -v 1  -d API Layer to record api calls as they occur</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/generate_api_layer_manifest.py" -f D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.json -n LUNARG_api_dump -l ./XrApiLayer_api_dump.dll -a 1.1 -v 1 -d "API Layer to record api calls as they occur"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\generate_api_layer_manifest.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\HelloWorldTest\src\api_layers\XrApiLayer_api_dump.json</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating API Layer JSON D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.json using -f D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.json -n LUNARG_api_dump -l ./$^&lt;TARGET_FILE_NAME:XrApiLayer_api_dump^&gt; -a 1.1 -v 1  -d API Layer to record api calls as they occur</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/generate_api_layer_manifest.py" -f D:/HelloWorldTest/src/api_layers/XrApiLayer_api_dump.json -n LUNARG_api_dump -l ./XrApiLayer_api_dump.dll -a 1.1 -v 1 -d "API Layer to record api calls as they occur"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\scripts\generate_api_layer_manifest.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\HelloWorldTest\src\api_layers\XrApiLayer_api_dump.json</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/api_layers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37" -BD:/HelloWorldTest --check-stamp-file D:/HelloWorldTest/src/api_layers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\api_layer_platform_defines.h;D:\HelloWorldTest\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\HelloWorldTest\src\api_layers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/api_layers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37" -BD:/HelloWorldTest --check-stamp-file D:/HelloWorldTest/src/api_layers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\api_layer_platform_defines.h;D:\HelloWorldTest\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\HelloWorldTest\src\api_layers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/api_layers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37" -BD:/HelloWorldTest --check-stamp-file D:/HelloWorldTest/src/api_layers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\api_layer_platform_defines.h;D:\HelloWorldTest\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\HelloWorldTest\src\api_layers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/api_layers/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37" -BD:/HelloWorldTest --check-stamp-file D:/HelloWorldTest/src/api_layers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\api_layer_platform_defines.h;D:\HelloWorldTest\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\HelloWorldTest\src\api_layers\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\api_dump.cpp" />
+    <ClInclude Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common\hex_and_handles.h" />
+    <ClInclude Include="D:\HelloWorldTest\src\api_layers\xr_generated_api_dump.hpp" />
+    <ClCompile Include="D:\HelloWorldTest\src\api_layers\xr_generated_api_dump.cpp" />
+    <ClInclude Include="D:\HelloWorldTest\src\xr_generated_dispatch_table.h" />
+    <ClCompile Include="D:\HelloWorldTest\src\xr_generated_dispatch_table.c" />
+    <None Include="D:\HelloWorldTest\src\api_layers\XrApiLayer_api_dump.json">
+    </None>
+    <None Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\XrApiLayer_api_dump.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\HelloWorldTest\ZERO_CHECK.vcxproj">
+      <Project>{9090A06D-2FC5-3A43-B4DD-7B9ECDA77EB9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\HelloWorldTest\include\openxr\generate_openxr_header.vcxproj">
+      <Project>{B02AAFE3-9D19-378D-8416-3D755E0E337A}</Project>
+      <Name>generate_openxr_header</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\HelloWorldTest\src\xr_common_generated_files.vcxproj">
+      <Project>{2E82D097-D049-3D50-BB1E-234015994F2E}</Project>
+      <Name>xr_common_generated_files</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

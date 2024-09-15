@@ -1,0 +1,10 @@
+^C:\USERS\CHENGXIANG LI\DESKTOP\OPENXR-SDK-SOURCE-RELEASE-1.1.37\SRC\TESTS\LIST_JSON\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37" -BD:/HelloWorldTest --check-stamp-file D:/HelloWorldTest/src/tests/list_json/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

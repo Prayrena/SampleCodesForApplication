@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\7e60c5b842333969cbf8027a9b861b06\openxr.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\7e60c5b842333969cbf8027a9b861b06\openxr_loader_negotiation.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\7e60c5b842333969cbf8027a9b861b06\openxr_platform.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\7e60c5b842333969cbf8027a9b861b06\openxr_reflection.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\7e60c5b842333969cbf8027a9b861b06\openxr_reflection_parent_structs.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\7e60c5b842333969cbf8027a9b861b06\openxr_reflection_structs.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\e9fc98ef87018c8e4699bc2fbd4cfc90\generate_openxr_header.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\include\openxr\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\HelloWorldTest\include\openxr\CMakeFiles\generate_openxr_header" />
+  </ItemGroup>
+  <ItemGroup>
+    <XML Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\specification\registry\xr.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CBAD7041-F1A0-3A80-97A8-175E351C60A4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

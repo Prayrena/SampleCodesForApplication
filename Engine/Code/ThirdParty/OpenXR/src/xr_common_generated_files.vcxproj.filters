@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\fcf03554df7e2a0ceeb9c61033fc6f0f\xr_generated_dispatch_table.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\fcf03554df7e2a0ceeb9c61033fc6f0f\xr_generated_dispatch_table.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\2f7c988a15c3f6804767b0ee0132f01c\xr_common_generated_files.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\HelloWorldTest\src\CMakeFiles\xr_common_generated_files" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CBAD7041-F1A0-3A80-97A8-175E351C60A4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

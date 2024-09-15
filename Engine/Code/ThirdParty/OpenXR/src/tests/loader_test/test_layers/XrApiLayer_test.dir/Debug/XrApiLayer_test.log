@@ -1,0 +1,8 @@
+﻿  Generating API Layer JSON D:/HelloWorldTest/src/tests/loader_test/resources/layers/XrApiLayer_test.json using -f D:/HelloWorldTest/src/tests/loader_test/resources/layers/XrApiLayer_test.json -n test -l D:/HelloWorldTest/src/tests/loader_test/test_layers/$<TARGET_FILE_NAME:XrApiLayer_test> -a 1.1 -v 1 -b -d Test_description
+  ../../test_layers/XrApiLayer_test.dll
+  Building Custom Rule C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/tests/loader_test/test_layers/CMakeLists.txt
+  layer_test.cpp
+     Creating library D:/HelloWorldTest/src/tests/loader_test/test_layers/XrApiLayer_test.lib and object D:/HelloWorldTest/src/tests/loader_test/test_layers/XrApiLayer_test.exp
+  XrApiLayer_test.vcxproj -> D:\HelloWorldTest\src\tests\loader_test\test_layers\XrApiLayer_test.dll
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

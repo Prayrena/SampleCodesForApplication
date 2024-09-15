@@ -1,0 +1,52 @@
+^D:\HELLOWORLDTEST\CMAKEFILES\F5828221C7736D1B2A2FC8EB1840436B\XR_GENERATED_CORE_VALIDATION.HPP.RULE
+setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/src_genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" xr_generated_core_validation.hpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HELLOWORLDTEST\CMAKEFILES\F5828221C7736D1B2A2FC8EB1840436B\XR_GENERATED_CORE_VALIDATION.CPP.RULE
+setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/src_genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" xr_generated_core_validation.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HELLOWORLDTEST\CMAKEFILES\F5828221C7736D1B2A2FC8EB1840436B\XRAPILAYER_CORE_VALIDATION.JSON.RULE
+setlocal
+cd D:\HelloWorldTest\src\api_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/generate_api_layer_manifest.py" -f D:/HelloWorldTest/src/api_layers/XrApiLayer_core_validation.json -n LUNARG_core_validation -l ./XrApiLayer_core_validation.dll -a 1.1 -v 1 -d "API Layer to perform validation of api calls and parameters as they occur"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CHENGXIANG LI\DESKTOP\OPENXR-SDK-SOURCE-RELEASE-1.1.37\SRC\API_LAYERS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37" -BD:/HelloWorldTest --check-stamp-file D:/HelloWorldTest/src/api_layers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

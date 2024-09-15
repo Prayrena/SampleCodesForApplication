@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\android_utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\api_layer_interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\loader_core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\loader_init_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\loader_instance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\loader_logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\loader_logger_recorders.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\manifest_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\runtime_interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common\object_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\HelloWorldTest\src\loader\xr_generated_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\HelloWorldTest\src\xr_generated_dispatch_table_core.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common\filesystem_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\external\jsoncpp\src\lib_json\json_reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\external\jsoncpp\src\lib_json\json_value.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\external\jsoncpp\src\lib_json\json_writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\android_utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\api_layer_interface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\loader_init_data.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\loader_instance.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\loader_logger.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\loader_logger_recorders.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\manifest_file.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\runtime_interface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common\hex_and_handles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common\object_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common\platform_utils.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\HelloWorldTest\src\loader\xr_generated_loader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\HelloWorldTest\src\xr_generated_dispatch_table_core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\8cd439116bad3e9c536abeffec4b930d\xr_generated_loader.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\8cd439116bad3e9c536abeffec4b930d\xr_generated_loader.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\loader\loader.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CBAD7041-F1A0-3A80-97A8-175E351C60A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{577F43C1-3B38-3077-BDD8-C545A2AA3EC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2F04D6B9-3866-33FF-AF86-477C4C3A3C38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+^D:\HELLOWORLDTEST\CMAKEFILES\FCF03554DF7E2A0CEEB9C61033FC6F0F\XR_GENERATED_DISPATCH_TABLE.C.RULE
+setlocal
+cd D:\HelloWorldTest\src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/src_genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" xr_generated_dispatch_table.c
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HELLOWORLDTEST\CMAKEFILES\FCF03554DF7E2A0CEEB9C61033FC6F0F\XR_GENERATED_DISPATCH_TABLE.H.RULE
+setlocal
+cd D:\HelloWorldTest\src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/src_genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" xr_generated_dispatch_table.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HELLOWORLDTEST\CMAKEFILES\2F7C988A15C3F6804767B0EE0132F01C\XR_COMMON_GENERATED_FILES.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CHENGXIANG LI\DESKTOP\OPENXR-SDK-SOURCE-RELEASE-1.1.37\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37" -BD:/HelloWorldTest --check-stamp-file D:/HelloWorldTest/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

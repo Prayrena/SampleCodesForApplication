@@ -1,0 +1,24 @@
+^D:\HELLOWORLDTEST\CMAKEFILES\7E128F379656FCEB52DB15C21E04E776\XRAPILAYER_TEST.JSON.RULE
+setlocal
+cd D:\HelloWorldTest\src\tests\loader_test\test_layers
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts/generate_api_layer_manifest.py" -f D:/HelloWorldTest/src/tests/loader_test/resources/layers/XrApiLayer_test.json -n test -l D:/HelloWorldTest/src/tests/loader_test/test_layers/XrApiLayer_test.dll -a 1.1 -v 1 -b -d Test_description
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CHENGXIANG LI\DESKTOP\OPENXR-SDK-SOURCE-RELEASE-1.1.37\SRC\TESTS\LOADER_TEST\TEST_LAYERS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37" -BD:/HelloWorldTest --check-stamp-file D:/HelloWorldTest/src/tests/loader_test/test_layers/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

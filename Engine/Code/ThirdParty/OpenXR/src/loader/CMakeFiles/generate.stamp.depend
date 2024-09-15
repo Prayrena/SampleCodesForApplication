@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.22/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.22/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.22/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/loader/CMakeLists.txt
+C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/loader/OpenXRConfig.cmake.in
+D:/HelloWorldTest/CMakeFiles/cmake.verify_globs

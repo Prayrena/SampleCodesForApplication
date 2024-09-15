@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\76196bd8a9a44c7d55bce3ecb1b824fd\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CBAD7041-F1A0-3A80-97A8-175E351C60A4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

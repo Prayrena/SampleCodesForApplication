@@ -1,0 +1,3 @@
+Right now there are no vertices being rendered in the scene. This is because I found out that the sample project is saying that the DXGI_FORMAT_R8G8B8A8_UNORM is not supported for the swapchain but the DXGI_FORMAT_R8G8B8A8_UNORM_sRGB is, which is making my vertices for cubes added by functions could not be drawn on screen. 
+
+I need to figure out how to get that format to be supported or I need to convert the linear RGBA color info into non-linear sRGB color info.

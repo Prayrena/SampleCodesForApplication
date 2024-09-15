@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GamePlay">
+      <UniqueIdentifier>{0d9f5746-0648-4dea-b0ae-fc53414a0eb8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="check.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d_common.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsapi.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsplugin.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="openxr_program.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="options.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="platformdata.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="platformplugin.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="RhythmCube.hpp">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="graphicsplugin_d3d11.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHand.hpp">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.hpp">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Pillar.hpp">
+      <Filter>GamePlay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="d3d_common.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsplugin_d3d11.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsplugin_d3d12.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsplugin_factory.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsplugin_opengl.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsplugin_opengles.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="graphicsplugin_vulkan.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="logger.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="openxr_program.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="platformplugin_android.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="platformplugin_factory.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="platformplugin_posix.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="platformplugin_win32.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="RhythmCube.cpp">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHand.cpp">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Pillar.cpp">
+      <Filter>GamePlay</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

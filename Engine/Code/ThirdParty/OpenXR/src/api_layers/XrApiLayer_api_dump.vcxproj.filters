@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\api_dump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\HelloWorldTest\src\api_layers\xr_generated_api_dump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\HelloWorldTest\src\xr_generated_dispatch_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\common\hex_and_handles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\HelloWorldTest\src\api_layers\xr_generated_api_dump.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\HelloWorldTest\src\xr_generated_dispatch_table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\f5828221c7736d1b2a2fc8eb1840436b\xr_generated_api_dump.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\f5828221c7736d1b2a2fc8eb1840436b\xr_generated_api_dump.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\HelloWorldTest\CMakeFiles\f5828221c7736d1b2a2fc8eb1840436b\XrApiLayer_api_dump.json.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\HelloWorldTest\src\api_layers\XrApiLayer_api_dump.json" />
+    <None Include="C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\api_layers\XrApiLayer_api_dump.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CBAD7041-F1A0-3A80-97A8-175E351C60A4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{577F43C1-3B38-3077-BDD8-C545A2AA3EC4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2F04D6B9-3866-33FF-AF86-477C4C3A3C38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

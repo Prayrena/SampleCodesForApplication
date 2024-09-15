@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/tests/loader_test/CMakeLists.txt
+  loader_test_utils.cpp
+  loader_test.cpp
+  filesystem_utils.cpp
+  Generating Code...
+  loader_test.vcxproj -> D:\HelloWorldTest\src\tests\loader_test\Debug\loader_test.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

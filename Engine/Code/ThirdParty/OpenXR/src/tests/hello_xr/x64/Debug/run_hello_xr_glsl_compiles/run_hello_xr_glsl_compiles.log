@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/tests/hello_xr/CMakeLists.txt
+  CMake is re-running because D:/HelloWorldTest/src/tests/hello_xr/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/tests/hello_xr/CMakeLists.txt'
+    is newer than 'D:/HelloWorldTest/src/tests/hello_xr/CMakeFiles/generate.stamp.depend'
+    result='0'
+CUSTOMBUILD : CMake error : The source directory "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37" does not exist.
+  Specify --help for usage, or press the help button on the CMake GUI.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(249,5): error MSB8066: Custom build for 'D:\HelloWorldTest\CMakeFiles\99546fa63523b1d7ec3b7ef73e5187ad\run_hello_xr_glsl_compiles.rule;C:\Users\Chengxiang Li\Desktop\OpenXR-SDK-Source-release-1.1.37\src\tests\hello_xr\CMakeLists.txt' exited with code 1.

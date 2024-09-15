@@ -1,0 +1,78 @@
+^D:\HELLOWORLDTEST\CMAKEFILES\7E60C5B842333969CBF8027A9B861B06\OPENXR.H.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts/genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" -o D:/HelloWorldTest/include/openxr openxr.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HELLOWORLDTEST\CMAKEFILES\7E60C5B842333969CBF8027A9B861B06\OPENXR_LOADER_NEGOTIATION.H.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts/genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" -o D:/HelloWorldTest/include/openxr openxr_loader_negotiation.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HELLOWORLDTEST\CMAKEFILES\7E60C5B842333969CBF8027A9B861B06\OPENXR_PLATFORM.H.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts/genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" -o D:/HelloWorldTest/include/openxr openxr_platform.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HELLOWORLDTEST\CMAKEFILES\7E60C5B842333969CBF8027A9B861B06\OPENXR_REFLECTION.H.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts/genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" -o D:/HelloWorldTest/include/openxr openxr_reflection.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HELLOWORLDTEST\CMAKEFILES\7E60C5B842333969CBF8027A9B861B06\OPENXR_REFLECTION_PARENT_STRUCTS.H.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts/genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" -o D:/HelloWorldTest/include/openxr openxr_reflection_parent_structs.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HELLOWORLDTEST\CMAKEFILES\7E60C5B842333969CBF8027A9B861B06\OPENXR_REFLECTION_STRUCTS.H.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E env "PYTHONPATH=C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts";"C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/src/scripts";"" "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python39_64/python.exe" "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/scripts/genxr.py" -registry "C:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37/specification/registry/xr.xml" -o D:/HelloWorldTest/include/openxr openxr_reflection_structs.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\HELLOWORLDTEST\CMAKEFILES\E9FC98EF87018C8E4699BC2FBD4CFC90\GENERATE_OPENXR_HEADER.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CHENGXIANG LI\DESKTOP\OPENXR-SDK-SOURCE-RELEASE-1.1.37\INCLUDE\OPENXR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Chengxiang Li/Desktop/OpenXR-SDK-Source-release-1.1.37" -BD:/HelloWorldTest --check-stamp-file D:/HelloWorldTest/include/openxr/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
